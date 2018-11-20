@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #EEEEEE;
+    height: 100%;
+}
+#header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #EEEEEE;
+}
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.logo img {
+    width: 300px;
+}
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+.nav-header ul{
+    list-style: none;
+    display: flex;
+    width: 520px;
+    justify-content: space-around;
+}
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.nav-link:hover {
+    display: inline-block;
+    color: #2dc5d9;
+    transform: scale(1.2);
+}
+.nav-link:focus {
+    color: #2dc5d9;
+}
+
+.main {
+    margin-top: 75px;
+
+}
+.req-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.req-email h2{
+    font-size: 2.5rem; 
+    padding-bottom: 15px; 
+    padding-top: 15px; 
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+
+}
+.form input[name="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+.form input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    border: 0;
+    background-color: #f1c40f;
+    height: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.features {
+    padding-top: 40px;
+}
+.grid {
+    width: 1000px;
+    height: 125px;
+    margin: 0 auto;
+    display: flex;
+}
+.grid-text {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.grid-text h2   {
+    font-size: 2.5rem; 
+}
+.grid-text p  {
+    font-size: 1.6rem; 
+}
+.grid-icon{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-icon .fa ,.fab {
+    color: #FF8C00;
+    font-size: 4.2rem;
+}
+.fa1 {
+    transform: scaleX(-1);
+}
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+#how-it-works iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+.pricing {
+    margin: 60px auto;
+    margin-bottom: 0;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.price-block {
+    display: flex;
+    flex-direction: column;
+    width: 309px;
+    height: 311px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+}
+.price-level {
+    background-color: #ddd;
+    color: black;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.money {
+    text-align: center;
+    font-size: 2.9rem;
+    margin-top: 15px;
+}
+.price-block ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 15px 0;
+    font-size: 1.6rem;
+}
+.price-block ol li {
+    padding: 5px 0;
+}
+.btn {
+    border: 0;
+    background-color: #f1c40f;
+    height: 40px;
+    width: 102px;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+.footer {
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #DDDDDD;
+    width: 960px;
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+footer ul li {
+    padding: 0 10px;
+}
+.link-footer {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.7rem;
+}
+footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    color: #444;
+}
+.link-footer:hover {
+    color:#34e620;
+}
